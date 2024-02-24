@@ -10,10 +10,21 @@
 		0CC9ECB22B8A107F002599AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECB12B8A107F002599AE /* AppDelegate.swift */; };
 		0CC9ECB42B8A107F002599AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECB32B8A107F002599AE /* SceneDelegate.swift */; };
 		0CC9ECB62B8A107F002599AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECB52B8A107F002599AE /* ViewController.swift */; };
-		0CC9ECB92B8A107F002599AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9ECB72B8A107F002599AE /* Main.storyboard */; };
 		0CC9ECBC2B8A107F002599AE /* MVVM_EX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECBA2B8A107F002599AE /* MVVM_EX.xcdatamodeld */; };
 		0CC9ECBE2B8A1080002599AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9ECBD2B8A1080002599AE /* Assets.xcassets */; };
 		0CC9ECC12B8A1080002599AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9ECBF2B8A1080002599AE /* LaunchScreen.storyboard */; };
+		0CC9ECCC2B8A1175002599AE /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC9ECCB2B8A1175002599AE /* RxBlocking */; };
+		0CC9ECCE2B8A1175002599AE /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC9ECCD2B8A1175002599AE /* RxBlocking-Dynamic */; };
+		0CC9ECD02B8A1175002599AE /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC9ECCF2B8A1175002599AE /* RxCocoa */; };
+		0CC9ECD22B8A1175002599AE /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC9ECD12B8A1175002599AE /* RxCocoa-Dynamic */; };
+		0CC9ECD42B8A1175002599AE /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC9ECD32B8A1175002599AE /* RxRelay */; };
+		0CC9ECDC2B8A1220002599AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECDA2B8A1220002599AE /* HomeViewController.swift */; };
+		0CC9ECDD2B8A1220002599AE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9ECDB2B8A1220002599AE /* HomeViewController.xib */; };
+		0CC9ECDF2B8A123D002599AE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECDE2B8A123D002599AE /* HomeViewModel.swift */; };
+		0CC9ECE12B8A1254002599AE /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECE02B8A1254002599AE /* HomeModel.swift */; };
+		0CC9ECE52B8A1A99002599AE /* PostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECE32B8A1A99002599AE /* PostsCell.swift */; };
+		0CC9ECE62B8A1A99002599AE /* PostsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9ECE42B8A1A99002599AE /* PostsCell.xib */; };
+		0CC9ECEA2B8A2C5A002599AE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9ECE92B8A2C5A002599AE /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +32,17 @@
 		0CC9ECB12B8A107F002599AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CC9ECB32B8A107F002599AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0CC9ECB52B8A107F002599AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CC9ECB82B8A107F002599AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CC9ECBB2B8A107F002599AE /* MVVM_EX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVM_EX.xcdatamodel; sourceTree = "<group>"; };
 		0CC9ECBD2B8A1080002599AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC9ECC02B8A1080002599AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC9ECC22B8A1080002599AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC9ECDA2B8A1220002599AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0CC9ECDB2B8A1220002599AE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0CC9ECDE2B8A123D002599AE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0CC9ECE02B8A1254002599AE /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		0CC9ECE32B8A1A99002599AE /* PostsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCell.swift; sourceTree = "<group>"; };
+		0CC9ECE42B8A1A99002599AE /* PostsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsCell.xib; sourceTree = "<group>"; };
+		0CC9ECE92B8A2C5A002599AE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC9ECD42B8A1175002599AE /* RxRelay in Frameworks */,
+				0CC9ECD22B8A1175002599AE /* RxCocoa-Dynamic in Frameworks */,
+				0CC9ECD02B8A1175002599AE /* RxCocoa in Frameworks */,
+				0CC9ECCC2B8A1175002599AE /* RxBlocking in Frameworks */,
+				0CC9ECCE2B8A1175002599AE /* RxBlocking-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +80,94 @@
 		0CC9ECB02B8A107F002599AE /* MVVM EX */ = {
 			isa = PBXGroup;
 			children = (
-				0CC9ECB12B8A107F002599AE /* AppDelegate.swift */,
-				0CC9ECB32B8A107F002599AE /* SceneDelegate.swift */,
+				0CC9ECE82B8A2C38002599AE /* Dependencies */,
+				0CC9ECD52B8A117E002599AE /* Module */,
+				0CC9ECC82B8A112F002599AE /* Core */,
+				0CC9ECC92B8A1135002599AE /* Support */,
 				0CC9ECB52B8A107F002599AE /* ViewController.swift */,
-				0CC9ECB72B8A107F002599AE /* Main.storyboard */,
-				0CC9ECBD2B8A1080002599AE /* Assets.xcassets */,
-				0CC9ECBF2B8A1080002599AE /* LaunchScreen.storyboard */,
 				0CC9ECC22B8A1080002599AE /* Info.plist */,
 				0CC9ECBA2B8A107F002599AE /* MVVM_EX.xcdatamodeld */,
 			);
 			path = "MVVM EX";
+			sourceTree = "<group>";
+		};
+		0CC9ECC82B8A112F002599AE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECB12B8A107F002599AE /* AppDelegate.swift */,
+				0CC9ECB32B8A107F002599AE /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0CC9ECC92B8A1135002599AE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECBD2B8A1080002599AE /* Assets.xcassets */,
+				0CC9ECBF2B8A1080002599AE /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0CC9ECD52B8A117E002599AE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECD92B8A11C9002599AE /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0CC9ECD62B8A11AC002599AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECE22B8A1A77002599AE /* Cell */,
+				0CC9ECDA2B8A1220002599AE /* HomeViewController.swift */,
+				0CC9ECDB2B8A1220002599AE /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CC9ECD72B8A11B0002599AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECDE2B8A123D002599AE /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0CC9ECD82B8A11BA002599AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECE02B8A1254002599AE /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CC9ECD92B8A11C9002599AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECD82B8A11BA002599AE /* Model */,
+				0CC9ECD72B8A11B0002599AE /* ViewModel */,
+				0CC9ECD62B8A11AC002599AE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0CC9ECE22B8A1A77002599AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECE32B8A1A99002599AE /* PostsCell.swift */,
+				0CC9ECE42B8A1A99002599AE /* PostsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0CC9ECE82B8A2C38002599AE /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9ECE92B8A2C5A002599AE /* MainViewModel.swift */,
+			);
+			path = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +186,13 @@
 			dependencies = (
 			);
 			name = "MVVM EX";
+			packageProductDependencies = (
+				0CC9ECCB2B8A1175002599AE /* RxBlocking */,
+				0CC9ECCD2B8A1175002599AE /* RxBlocking-Dynamic */,
+				0CC9ECCF2B8A1175002599AE /* RxCocoa */,
+				0CC9ECD12B8A1175002599AE /* RxCocoa-Dynamic */,
+				0CC9ECD32B8A1175002599AE /* RxRelay */,
+			);
 			productName = "MVVM EX";
 			productReference = 0CC9ECAE2B8A107F002599AE /* MVVM EX.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 0CC9ECA52B8A107F002599AE;
+			packageReferences = (
+				0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 0CC9ECAF2B8A107F002599AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +240,8 @@
 			files = (
 				0CC9ECC12B8A1080002599AE /* LaunchScreen.storyboard in Resources */,
 				0CC9ECBE2B8A1080002599AE /* Assets.xcassets in Resources */,
-				0CC9ECB92B8A107F002599AE /* Main.storyboard in Resources */,
+				0CC9ECDD2B8A1220002599AE /* HomeViewController.xib in Resources */,
+				0CC9ECE62B8A1A99002599AE /* PostsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +252,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC9ECDC2B8A1220002599AE /* HomeViewController.swift in Sources */,
+				0CC9ECDF2B8A123D002599AE /* HomeViewModel.swift in Sources */,
 				0CC9ECB62B8A107F002599AE /* ViewController.swift in Sources */,
+				0CC9ECE52B8A1A99002599AE /* PostsCell.swift in Sources */,
+				0CC9ECE12B8A1254002599AE /* HomeModel.swift in Sources */,
 				0CC9ECB22B8A107F002599AE /* AppDelegate.swift in Sources */,
 				0CC9ECBC2B8A107F002599AE /* MVVM_EX.xcdatamodeld in Sources */,
 				0CC9ECB42B8A107F002599AE /* SceneDelegate.swift in Sources */,
+				0CC9ECEA2B8A2C5A002599AE /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0CC9ECB72B8A107F002599AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CC9ECB82B8A107F002599AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0CC9ECBF2B8A1080002599AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +409,6 @@
 				INFOPLIST_FILE = "MVVM EX/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +436,6 @@
 				INFOPLIST_FILE = "MVVM EX/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,6 +473,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CC9ECCB2B8A1175002599AE /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		0CC9ECCD2B8A1175002599AE /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		0CC9ECCF2B8A1175002599AE /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		0CC9ECD12B8A1175002599AE /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		0CC9ECD32B8A1175002599AE /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC9ECCA2B8A1175002599AE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0CC9ECBA2B8A107F002599AE /* MVVM_EX.xcdatamodeld */ = {

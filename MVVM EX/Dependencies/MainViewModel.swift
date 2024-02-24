@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol ViewModel: AnyObject {
+    associatedtype Input
+    associatedtype Output
+}
